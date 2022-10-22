@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pydown"
+version = "0.1.0"
+description = ""
+authors = ["yossTheDev <yossthedev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+flet = "^0.1.62"
+pytube = "^12.1.0"
+pyinstaller = "^5.5"
+python-for-android = "^2022.9.4"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"
+black = "^22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
