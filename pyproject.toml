@@ -6,7 +6,7 @@ authors = ["yossTheDev <yossthedev@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.12"
+python = ">=3.10"
 flet = "^0.1.62"
 pytube = "^12.1.0"
 pyinstaller = "^5.5"
